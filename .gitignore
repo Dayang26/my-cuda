@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# 模型权重
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# 数据集
+data/
+*/data/
+*.arrow
+*.lock
+!*/data/*.py
+
+# 编译产物
+*.o
+*.out
+a.out
+kernels/test
+kernels/test_gpu
