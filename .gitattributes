@@ -1,0 +1,2 @@
+transformer-pytorch/data/corpus.* filter=lfs diff=lfs merge=lfs -text
+transformer-pytorch/data/dataset/*.json filter=lfs diff=lfs merge=lfs -text

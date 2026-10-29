@@ -21,6 +21,10 @@ data/
 *.arrow
 *.lock
 !*/data/*.py
+!transformer-pytorch/data/
+!transformer-pytorch/data/corpus.*
+!transformer-pytorch/data/dataset/
+!transformer-pytorch/data/dataset/*.json
 
 # 编译产物
 *.o
